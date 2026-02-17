@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bin":{
+  "bin": {
     "tasker": "./index.js"
   }
 }
