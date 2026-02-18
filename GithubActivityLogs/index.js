@@ -14,13 +14,13 @@ const getUserActivity = async (userName) => {
 
 (function init() {
   const inputs = process.argv.slice(2);
+  process.env.ROOT_PATH = path.dirname(__filename);
   console.log(inputs, "<==");
   if (inputs.length === 1) {
     const userName = inputs[0];
     getUserActivity(userName).then((res) => {});
   } else {
-    console.log(path.resolve("."));
-    fs.readFile(path.join(path.resolve("."), "Readme.md"))
+    fs.readFile(path.join(process.env.ROOT_PATH, "Readme.md"))
       .then((res) => res.toLocaleString())
       .then((res) => console.log(res));
   }

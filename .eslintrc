@@ -1,0 +1,35 @@
+{
+    "env": {
+        "node": true,    // ✓ Node.js environment enabled
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "commonjs"
+    },
+    "rules": {
+        "indent": ["error", 2],
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "no-unused-vars": ["warn"],
+        "no-console": "off",
+        "eqeqeq": ["error", "always"]
+    },
+    "overrides": [
+        {
+            "files": ["app1/**/*.js"],
+            "rules": {}
+        },
+        {
+            "files": ["app2/**/*.js"],
+            "rules": {}
+        },
+        {
+            "files": ["app3/**/*.js"],
+            "rules": {}
+        }
+    ],
+    "ignorePatterns": ["node_modules", "dist", "build"]
+}
