@@ -1,0 +1,14 @@
+{
+  "name": "guessinggame",
+  "version": "1.0.0",
+  "description": "A simple command-line number guessing game where players try to guess a randomly generated number within a specified range.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {"node": ">=18"}
+}
