@@ -17,19 +17,19 @@
         "no-console": "off",
         "eqeqeq": ["error", "always"]
     },
-    "overrides": [
-        {
-            "files": ["app1/**/*.js"],
-            "rules": {}
-        },
-        {
-            "files": ["app2/**/*.js"],
-            "rules": {}
-        },
-        {
-            "files": ["app3/**/*.js"],
-            "rules": {}
-        }
-    ],
+    // "overrides": [
+    //     {
+    //         "files": ["app1/**/*.js"],
+    //         "rules": {}
+    //     },
+    //     {
+    //         "files": ["app2/**/*.js"],
+    //         "rules": {}
+    //     },
+    //     {
+    //         "files": ["app3/**/*.js"],
+    //         "rules": {}
+    //     }
+    // ],
     "ignorePatterns": ["node_modules", "dist", "build"]
 }
