@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogger-Home</title>
+  </head>
+  <body>
+    <%- include('../shared/header.ejs'); -%>
+    <main>
+      <div class="container">
+        <div>
+          <h2 style="text-align: center">Select Portal</h2>
+          <div class="card-container">
+            <a href="/personal-blogger/blogs">Visitor</a>
+            <a href="/personal-blogger/admin">Admin</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60vh;
+    }
+    .card-container > a {
+      padding: 10px 20px;
+      border: 1px solid #ccc;
+      display: inline-block;
+      text-decoration: none;
+      font-weight: 300;
+      color: #222;
+    }
+  </style>
+</html>
