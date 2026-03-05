@@ -34,3 +34,6 @@ logs/
 .parcel-cache
 .next
 out/
+Artillery/
+chrome-extensions/
+secret/
